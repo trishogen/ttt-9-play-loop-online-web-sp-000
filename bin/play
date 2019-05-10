@@ -9,5 +9,8 @@ display_board(board)
 
 # Make sure to execute #play below
 turns_taken = 0
+
 while turns_taken < 9 do
-  
+  play
+  turns_taken
+end
